@@ -1,0 +1,79 @@
+#first{
+    text-align: center;
+    background-color: aqua;
+    color: brown;
+    font-size: 20px;
+    padding: 20px;
+}
+#middle{
+    text-align: center;
+    font-size: 25px;
+    color: cadetblue;
+}
+#last{
+    text-align:center;
+    text-decoration: solid;
+    font-size: 30px;
+    color: black;
+}
+#info{
+    margin-left: 475px;
+    text-decoration: solid;
+    font-size: 30px;
+    color: black;  
+}
+#span1 , #span2{
+    color:rgb(57, 120, 237);
+    font-style: italic;
+}
+#span3{
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+#Rock{
+    margin-left: 590px;
+    text-align: center;
+    display: inline;
+    background-color: bisque;
+    color:darkblue;
+    padding: 23px;
+    border:  1px solid black;
+    border-radius: 20px;
+    font-size: 25px; 
+     
+}
+#Rock:hover{
+    cursor: pointer;
+    background-color: palevioletred;
+}
+#Paper{
+    margin-left: 20px;
+ text-align: center;
+    display:inline;
+    background-color: bisque;
+    color:darkblue;
+    padding: 23px;
+    border:  1px solid black;
+    border-radius: 20px;
+    font-size: 25px;         
+}
+#Paper:hover{
+    cursor:pointer;
+    background-color: palevioletred;
+}
+#Scissor{
+ margin-left: 20px;
+ text-align: center;
+    display:inline;
+    background-color: bisque;
+    color:darkblue;
+    padding: 23px;
+    border:  1px solid black;
+    border-radius: 20px;
+    font-size: 25px;      
+}
+#Scissor:hover{
+    cursor: pointer;
+    background-color: palevioletred;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocpapsci</title>
+    <link rel="stylesheet" href="Rocpapsci.css">
+    <script src="./Rocpapsci.js"></script>
+</head>
+<body>
+   <div id="first">
+     <p>Select either rock , paper , scissors and see if you can beat the computer!</p>
+   </div> 
+   <div id="middle">
+         <strong>Remember:</strong><p>
+             "Rock breaks scissors , scissors cuts paper , paper covers rock."
+         </p>
+        </div>
+    <div id="last">
+        <h5 id="Score">
+            Player:[ <span id="plspan"></span> ]
+            Computer:[ <span id="cospan"></span> ]
+        </div>
+        <div id="info">
+        <h4 id="player2">
+            Player: <span id="span1"></span>
+        </h4>
+        <h4 id="computer2">
+            Computer: <span id="span2"></span>
+        </h4>
+        <h4 id="draw">
+            Draw: <span id="span3"></span>
+        </h4>
+    </div>
+        <button type="button" id="Rock" onclick= "clickfav1(),random(),draw(),player()">Rock</button>
+        <button type="button" id="Paper" onclick="clickfav2(),random(),draw(),player()">Paper</button>
+        <button type="button" id="Scissor" onclick="clickfav3(),random(),draw(),player()">Scissor</button>
+        
+</body>
+</html>
